@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Administrator/Desktop/koushik_cow",
-      "program": "c:/Users/Administrator/Desktop/koushik_cow/build/Debug/outDebug",
+      "cwd": "c:/Users/Administrator/Desktop/koushik/CodeForces",
+      "program": "c:/Users/Administrator/Desktop/koushik/CodeForces/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
