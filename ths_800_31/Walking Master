@@ -1,0 +1,44 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() 
+{
+    int t;
+    cin>>t;
+    while(t--)
+    {
+        int a,b,c,d;
+        cin>>a>>b>>c>>d;
+
+        int n=0;
+        if(b>d)
+        {
+            cout<<-1<<endl;
+            continue;
+        }
+        else
+        {
+            while(b<d)
+            {
+                b++;
+                a++;
+                n++;
+            }
+
+            if(a<c)
+            {
+                cout<<-1<<endl;
+                continue;
+            }
+            else
+            {
+                while(a>c)
+                {
+                    a--;
+                    n++;
+                }
+            }
+            cout<<n<<endl;
+        }
+    }
+}
